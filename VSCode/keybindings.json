@@ -1,0 +1,36 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.tasks.test"
+  },
+  {
+    "key": "cmd+shift+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  }
+]
