@@ -15,7 +15,7 @@
   },
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "editor.lineHeight": 23,
+  "editor.lineHeight": 26,
   "editor.formatOnPaste": true,
   "editor.fontFamily": "Dank Mono",
   "editor.fontSize": 14,
@@ -37,7 +37,6 @@
   "explorer.confirmDragAndDrop": false,
   "npm.enableScriptExplorer": true,
   "workbench.editor.showTabs": true,
-  "workbench.activityBar.visible": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
@@ -62,6 +61,11 @@
   "editor.multiCursorModifier": "alt",
   "workbench.sideBar.location": "right",
   "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "cSpell.words": [
     "unmount",
@@ -110,7 +114,15 @@
   "scm.defaultViewMode": "tree",
   "diffEditor.ignoreTrimWhitespace": false,
   "cSpell.userWords": [
+    "Droppable",
+    "REPRIORITIZED",
     "defintion",
+    "kanban",
+    "nullish",
     "organisation"
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.activityBar.visible": false
 }

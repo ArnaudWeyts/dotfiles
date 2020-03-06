@@ -9,6 +9,10 @@
     "command": "workbench.view.scm"
   },
   {
+    "key": "cmd+shift+h",
+    "command": "workbench.view.extension.github-pull-requests"
+  },
+  {
     "key": "cmd+d",
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
