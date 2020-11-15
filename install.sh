@@ -2,20 +2,20 @@
 
 # fish
 echo "Configuring fish..."
-ln -Fs fish $HOME/.config/fish
+ln -sF $(pwd)/fish ~/.config/fish
 
 # iterm
 echo "Configuring iterm..."
-ln -fs iterm/com.googlecode.iterm2.plist $HOME/Library/Preferences/com.googlecode.iterm2.plist 
-ln -fs iterm/Profiles.json $HOME/Library/Application\ Support/iTerm2/DynamicProfiles/Profiles.json
+ln -sf $(pwd)/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist 
+ln -sf $(pwd)/iterm/Profiles.json ~/Library/"Application Support"/iTerm2/DynamicProfiles/Profiles.json
 
 # git
 echo "Configuring git..."
-ln -fs git/.gitconfig $HOME/.gitconfig
-ln -fs git/.gitignore $HOME/.gitignore
+ln -sf $(pwd)/git/.gitconfig ~/.gitconfig
+ln -sf $(pwd)/git/.gitignore ~/.gitignore
 
 # vscode
 echo "Configuring vscode..."
-ln -fs VSCode/settings.json $HOME/Library/Application Support/Code/User/settings.json
-ln -fs VSCode/keybindings.json $HOME/Library/Application Support/Code/User/keybindings.json
-cat extensions.list | xargs -L 1 code --install-extension
+ln -sf $(pwd)/VSCode/settings.json ~/Library/"Application Support"/Code/User/settings.json
+ln -sf $(pwd)/VSCode/keybindings.json ~/Library/"Application Support"/Code/User/keybindings.json
+cat VSCode/extensions.list | xargs -L 1 code --install-extension
