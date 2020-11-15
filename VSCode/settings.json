@@ -25,7 +25,7 @@
   "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showUpdateMessage": false,
-  "workbench.colorTheme": "GitHub Plus",
+  "workbench.colorTheme": "Solarized Light",
   "git.enableSmartCommit": true,
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
