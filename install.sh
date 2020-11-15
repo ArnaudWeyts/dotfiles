@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# iterm
+echo "Configuring iterm..."
+ln -fs iterm/com.googlecode.iterm2.plist $HOME/Library/Preferences/com.googlecode.iterm2.plist 
+ln -fs iterm/Profiles.json $HOME/Library/Application\ Support/iTerm2/DynamicProfiles/Profiles.json
+
 # git
 echo "Configuring git..."
 ln -fs git/.gitconfig $HOME/.gitconfig
