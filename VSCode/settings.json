@@ -114,5 +114,6 @@
   "typescript.tsserver.log": "verbose",
   "task.problemMatchers.neverPrompt": {
     "npm": true
-  }
+  },
+  "vim.foldfix": true
 }
