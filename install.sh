@@ -11,7 +11,6 @@ ln -sf $(pwd)/nvim/init.vim ~/.config/nvim/init.vim
 # iterm
 echo "Configuring iterm..."
 ln -sf $(pwd)/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist 
-ln -sf $(pwd)/iterm/Profiles.json ~/Library/"Application Support"/iTerm2/DynamicProfiles/Profiles.json
 
 # git
 echo "Configuring git..."
