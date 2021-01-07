@@ -5,8 +5,7 @@
     "*.twig": "html",
     "*.jsx": "javascriptreact",
     "*.tsx": "typescriptreact",
-    "*.snap": "javascriptreact",
-    "*.css": "scss"
+    "*.snap": "javascriptreact"
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -24,14 +23,11 @@
   "window.restoreFullscreen": true,
   "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.showUpdateMessage": false,
   "workbench.colorTheme": "Solarized Light",
   "git.enableSmartCommit": true,
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "plaintext": "jade"
+    "javascript": "javascriptreact"
   },
   "explorer.confirmDragAndDrop": false,
   "npm.enableScriptExplorer": true,
@@ -41,16 +37,7 @@
     "suppressShowKeyBindingsNotice": true
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "sync.gist": "1838d1c371d49631b88e17c5d03e6f5a",
-  "sync.quietSync": false,
-  "sync.removeExtensions": true,
-  "sync.syncExtensions": true,
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.forceDownload": false,
-  "material-icon-theme.activeIconPack": "react_redux",
   "javascript.validate.enable": false,
-  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
   "diffEditor.renderSideBySide": true,
   "editor.multiCursorModifier": "alt",
   "workbench.sideBar.location": "right",
@@ -60,7 +47,6 @@
     "comments": true,
     "strings": true
   },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "cSpell.words": [
     "unmount",
     "actuals",
@@ -90,7 +76,6 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.singleQuote": true,
-  "liveshare.featureSet": "insiders",
   "scm.defaultViewMode": "tree",
   "diffEditor.ignoreTrimWhitespace": false,
   "cSpell.userWords": [
@@ -108,12 +93,8 @@
     "scrollable"
   ],
   "workbench.activityBar.visible": false,
-  "plantuml.server": "https://www.plantuml.com/plantuml",
-  "plantuml.render": "PlantUMLServer",
-  "liveServer.settings.donotShowInfoMsg": true,
   "typescript.tsserver.log": "verbose",
   "task.problemMatchers.neverPrompt": {
     "npm": true
-  },
-  "vim.foldfix": true
+  }
 }
