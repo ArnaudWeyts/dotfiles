@@ -1,18 +1,4 @@
 {
-  "cSpell.userWords": [
-    "Arnaud",
-    "Droppable",
-    "Memoization",
-    "REPRIORITIZED",
-    "Weyts",
-    "cond",
-    "defintion",
-    "kanban",
-    "nullish",
-    "organisation",
-    "prefetch",
-    "scrollable"
-  ],
   "cSpell.words": [
     "Onboarding",
     "actuals",
@@ -27,7 +13,19 @@
     "timetracking",
     "timetrackings",
     "unmount",
-    "usersnap"
+    "usersnap",
+    "Arnaud",
+    "Droppable",
+    "Memoization",
+    "REPRIORITIZED",
+    "Weyts",
+    "cond",
+    "defintion",
+    "kanban",
+    "nullish",
+    "organisation",
+    "prefetch",
+    "scrollable"
   ],
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
