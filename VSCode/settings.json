@@ -1,83 +1,4 @@
 {
-  "git.confirmSync": false,
-  "files.associations": {
-    "*.js": "javascript",
-    "*.twig": "html",
-    "*.jsx": "javascriptreact",
-    "*.tsx": "typescriptreact",
-    "*.snap": "javascriptreact"
-  },
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
-  },
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "editor.lineHeight": 26,
-  "editor.formatOnPaste": true,
-  "editor.fontFamily": "Dank Mono",
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
-  "editor.fontLigatures": true,
-  "window.restoreFullscreen": true,
-  "window.zoomLevel": 0,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Solarized Light",
-  "git.enableSmartCommit": true,
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "explorer.confirmDragAndDrop": false,
-  "npm.enableScriptExplorer": true,
-  "workbench.editor.showTabs": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.validate.enable": false,
-  "diffEditor.renderSideBySide": true,
-  "editor.multiCursorModifier": "alt",
-  "workbench.sideBar.location": "right",
-  "editor.suggestSelection": "first",
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
-  "cSpell.words": [
-    "unmount",
-    "actuals",
-    "Onboarding",
-    "timetrackings",
-    "timetracking",
-    "teamleader",
-    "refetch",
-    "refetched",
-    "hypernova",
-    "usersnap",
-    "financials",
-    "sideload",
-    "sideloaded",
-    "monospaced"
-  ],
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
-  "php.suggest.basic": false,
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.singleQuote": true,
-  "scm.defaultViewMode": "tree",
-  "diffEditor.ignoreTrimWhitespace": false,
   "cSpell.userWords": [
     "Arnaud",
     "Droppable",
@@ -92,9 +13,88 @@
     "prefetch",
     "scrollable"
   ],
-  "workbench.activityBar.visible": false,
-  "typescript.tsserver.log": "verbose",
+  "cSpell.words": [
+    "Onboarding",
+    "actuals",
+    "financials",
+    "hypernova",
+    "monospaced",
+    "refetch",
+    "refetched",
+    "sideload",
+    "sideloaded",
+    "teamleader",
+    "timetracking",
+    "timetrackings",
+    "unmount",
+    "usersnap"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 26,
+  "editor.multiCursorModifier": "alt",
+  "editor.quickSuggestions": {
+    "comments": true,
+    "other": true,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.snap": "javascriptreact",
+    "*.tsx": "typescriptreact",
+    "*.twig": "html"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "npm.enableScriptExplorer": true,
+  "php.suggest.basic": false,
+  "prettier.singleQuote": true,
+  "scm.defaultViewMode": "tree",
   "task.problemMatchers.neverPrompt": {
     "npm": true
-  }
+  },
+  "terminal.integrated.fontSize": 14,
+  "typescript.tsserver.log": "verbose",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.restoreFullscreen": true,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right"
 }
