@@ -25,7 +25,8 @@
     "nullish",
     "organisation",
     "prefetch",
-    "scrollable"
+    "scrollable",
+    "Upsell"
   ],
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
@@ -33,7 +34,7 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Dank Mono",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": true,
@@ -89,10 +90,15 @@
   "typescript.tsserver.log": "verbose",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.restoreFullscreen": true,
-  "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "workbench.startupEditor": "welcomePage",
+  "window.newWindowDimensions": "maximized"
 }
