@@ -26,7 +26,10 @@
     "organisation",
     "prefetch",
     "scrollable",
-    "Upsell"
+    "Upsell",
+    "combobox",
+    "labelledby",
+    "listbox"
   ],
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
