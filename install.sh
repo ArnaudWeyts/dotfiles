@@ -21,4 +21,5 @@ ln -sf $(pwd)/git/.gitignore ~/.gitignore
 echo "Configuring vscode..."
 ln -sf $(pwd)/VSCode/settings.json ~/Library/"Application Support"/Code/User/settings.json
 ln -sf $(pwd)/VSCode/keybindings.json ~/Library/"Application Support"/Code/User/keybindings.json
+ln -sf $(pwd)/VSCode/snippets ~/Library/"Application Support"/Code/User/snippets
 cat VSCode/extensions.list | xargs -L 1 code --install-extension
