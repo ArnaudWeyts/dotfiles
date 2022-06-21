@@ -52,5 +52,13 @@
   {
     "key": "cmd+q",
     "command": "-workbench.action.quit"
+  },
+  {
+    "key": "shift+cmd+pagedown",
+    "command": "workbench.action.nextSideBarView"
+  },
+  {
+    "key": "shift+cmd+pageup",
+    "command": "workbench.action.previousSideBarView"
   }
 ]
