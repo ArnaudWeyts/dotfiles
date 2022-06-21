@@ -19,12 +19,12 @@
     "scope": "javascript,typescript",
     "prefix": "index",
     "body": [
-      "import ${1:name} from './${1:name};'",
+      "import ${1:name} from './${1:name}';",
       "export default ${1:name};"
     ]
   },
   "Component": {
-    "scope": "javascript,javascriptreact",
+    "scope": "javascript,javascriptreact,typescriptreact",
     "prefix": "comp",
     "body": [
       "import React from 'react';",

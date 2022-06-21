@@ -29,18 +29,21 @@
     "Upsell",
     "combobox",
     "labelledby",
-    "listbox"
+    "listbox",
+    "prefilled"
   ],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.renderSideBySide": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.tabSize": 8
+  },
+  "php-cs-fixer.formatHtml": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.lineHeight": 26,
   "editor.multiCursorModifier": "alt",
@@ -50,10 +53,11 @@
     "strings": true
   },
   "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "off",
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "postcss": "css"
   },
   "emmet.triggerExpansionOnTab": true,
   "eslint.validate": [
@@ -62,6 +66,7 @@
     "typescript",
     "typescriptreact"
   ],
+  "css.validate": false,
   "explorer.confirmDragAndDrop": false,
   "files.associations": {
     "*.js": "javascript",
@@ -77,12 +82,8 @@
   },
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
-  "npm.enableScriptExplorer": true,
   "php.suggest.basic": false,
   "prettier.singleQuote": true,
   "scm.defaultViewMode": "tree",
@@ -90,18 +91,39 @@
     "npm": true
   },
   "terminal.integrated.fontSize": 14,
-  "typescript.tsserver.log": "verbose",
+  "typescript.tsserver.log": "off",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.restoreFullscreen": true,
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Solarized Light",
   "workbench.editor.showTabs": true,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
   "extensions.ignoreRecommendations": true,
   "git.autofetch": true,
   "workbench.startupEditor": "welcomePage",
-  "window.newWindowDimensions": "maximized"
+  "window.newWindowDimensions": "maximized",
+  "projectManager.git.baseFolders": ["~/dev/teamleadercrm"],
+  "projectManager.openInCurrenWindowIfEmpty": "never",
+  "workbench.activityBar.visible": false,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "cSpell.userWords": ["Timesheets", "Tooltipped"],
+  "workbench.colorTheme": "Dainty – Panda Theme (chroma 0, lightness 2)",
+  "php-cs-fixer.executablePath": "/Users/arnaud/dev/teamleadercrm/core/bin/php-cs-fixer",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.scrollback": 10000,
+  "diffEditor.maxComputationTime": 0,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 7,
+  "gitlens.views.stashes.files.layout": "list",
+  "gitlens.views.commits.files.layout": "tree"
 }
