@@ -4,10 +4,6 @@
 echo "Configuring fish..."
 ln -sF $(pwd)/fish ~/.config/fish
 
-# nvim
-echo "Configuring nvim..."
-ln -sf $(pwd)/nvim/init.vim ~/.config/nvim/init.vim
-
 # iterm
 echo "Configuring iterm..."
 ln -sf $(pwd)/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist 
