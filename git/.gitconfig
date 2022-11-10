@@ -2,7 +2,7 @@
 	name = Arnaud Weyts
 	email = arnaud.weyts@gmail.com
 [core]
-	excludesfile = /Users/arnaud/.gitignore
+	excludesfile = /Users/arnaudweyts/.gitignore
 [pull]
 	ff = only
 [push]
