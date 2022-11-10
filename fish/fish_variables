@@ -1,9 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export ANDROID_HOME:/Users/arnaud/Library/Android/sdk
-SETUVAR --export DOCK_DEFAULT_ORGANISATION:teamleadercrm
-SETUVAR --export DOCK_HOME:/Users/arnaud/dev
-SETUVAR --export N_PREFIX:/Users/arnaud/dev/n
+SETUVAR --export ANDROID_HOME:/Users/arnaudweyts/Library/Android/sdk
+SETUVAR --export N_PREFIX:/Users/arnaudweyts/dev/.n
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
@@ -39,6 +37,6 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/opt/homebrew/bin\x1e/Users/arnaud/dev/n/bin
+SETUVAR fish_user_paths:/opt/homebrew/bin\x1e/Users/arnaudweyts/dev/.n/bin
 SETUVAR fisher_active_prompt:spacefish
 SETUVAR fisher_dependency_count:spacefish
