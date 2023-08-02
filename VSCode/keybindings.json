@@ -60,5 +60,14 @@
   {
     "key": "shift+cmd+pageup",
     "command": "workbench.action.previousSideBarView"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "-workbench.action.tasks.build",
+    "when": "taskCommandsRegistered"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.toggleAuxiliaryBar"
   }
 ]
