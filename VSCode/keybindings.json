@@ -69,5 +69,40 @@
   {
     "key": "shift+cmd+b",
     "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "shift+alt+cmd+e",
+    "command": "-copilot-labs.use-brush-picker",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+;",
+    "command": "aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+  },
+  {
+    "key": "cmd+;",
+    "command": "cursorai.action.generateInTerminal",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-cursorai.action.generateInTerminal",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   }
 ]

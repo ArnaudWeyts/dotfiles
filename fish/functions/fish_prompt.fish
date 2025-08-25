@@ -1,6 +1,6 @@
 function determine_emoji
-  set -l failure_emoji '🚨' '🤬' '👺' '💥' '❌' '⁉️'
-  set -l success_emoji '👌' '🤘' '🎉' '🚀' '🙌'
+  set -l failure_emoji '🚨' '🤬' '👺' '💥' '❌' '⁉️' '🤮' '🤡' '💩'
+  set -l success_emoji '👌' '🤘' '🎉' '🚀' '🙌' '🤌' '😍' '👏'
   set -l emoji
 
    if [ $argv[1] -ne 0 ]
@@ -11,7 +11,7 @@ function determine_emoji
     set emoji $success_emoji[$random_index]
   end
 
-  echo $emoji
+  printf $emoji
 end
 
 function parse_git_branch
@@ -21,25 +21,31 @@ function parse_git_branch
   set -l git_dir (git rev-parse --git-dir 2> /dev/null)
 
   if test ! -n "$git_dir"
-    echo ''
+    printf ''
   else
     set -l branch (git branch 2> /dev/null | grep -e '\* ' | sed 's/^..\(.*\)/\1/')
     set -l git_status (git status -s)
 
     if test -n "$git_status"
-      echo "on "(set_color $fish_git_dirty_color)"$branch "(set_color normal)
+      printf "on "(set_color $fish_git_dirty_color)"$branch "(set_color normal)
     else
-      echo "on "(set_color $fish_git_clean_color)"$branch "(set_color normal)
+      printf "on "(set_color $fish_git_clean_color)"$branch "(set_color normal)
     end
   end
 end
 
+function python_version
+  if test $VIRTUAL_ENV
+    printf "🐍 $(pyenv version-name) "
+  end
+end
 
 function fish_prompt
   set -l last_status $status
   set -l emoji (determine_emoji $last_status)
   set -l branch_info (parse_git_branch)
   set -l directory_color blue
+  set -l python_version (python_version)
 
-  echo (set_color $directory_color)(basename $PWD)(set_color normal)" $branch_info$emoji "
+  printf (set_color $directory_color)(basename $PWD)(set_color normal)" $branch_info$python_version$emoji "
 end
